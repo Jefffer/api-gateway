@@ -17,11 +17,8 @@ spring:
             allowedOrigins: "*"
             allowedHeaders: "*"
             allowedMethods:
-              - GET
               - POST
-              - PUT
-              - DELETE
-              - PATCH
+
 
 eureka:
   instance:
